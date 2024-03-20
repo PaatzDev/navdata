@@ -1,0 +1,33 @@
+{
+  "details": {
+    "path": "/upload/arinc",
+    "method": "POST",
+    "headers": [
+      {
+        "key": "Content-Type",
+        "value": "multipart/form-data"
+      }
+    ],
+    "pathParams": []
+  },
+  "requests": [
+    {
+      "contentType": "multipart",
+      "content": {
+        "entries": [
+          {
+            "name": "file",
+            "type": "file",
+            "contentType": "application/octet-stream",
+            "fileContent": {
+              "path": "../../../../../../../Downloads/cifp/CIFP_240222/FAACIFP18"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "rest",
+  "typeHint": "POST"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "dotnet",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "patcx.vscode-nuget-gallery",
+                "usernamehw.errorlens",
+                "cweijan.vscode-database-client2"
+            ]
+        }
+    }
+}

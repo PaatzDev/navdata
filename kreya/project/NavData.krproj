@@ -1,0 +1,18 @@
+{
+  "id": "c8ba8a0b-b23f-494b-9c55-d6f8a0e46fa2",
+  "importStreams": [
+    {
+      "id": "73872cf2-66d2-4c2a-8d6b-be6eef89eef0",
+      "name": "open-api-url-importer",
+      "importerName": "OpenApiUrlImporter",
+      "createMissingOperations": true,
+      "options": {
+        "url": "http://localhost:5229/swagger",
+        "disableAutoRedirect": false,
+        "disableServerCertificateValidation": false
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": []
+}
